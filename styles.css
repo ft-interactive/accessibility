@@ -1,0 +1,49 @@
+* {
+	box-sizing: border-box;
+}
+
+#main-content {
+	width: 100%;
+	max-width: 600px;
+	margin: 0 auto;
+	font-family: HelveticaNeue, Helvetica, Arial, sans-serif;
+	color: #444;
+}
+
+h4 {
+	margin-top: 3em;
+	padding-top: 3em;
+	border-top: 1px solid #DEDEDE;
+}
+
+img {
+	max-width: 100%;
+	margin: 0 auto;
+}
+
+p, li {
+	font-size: 16px;
+	line-height: 1.8em;
+}
+
+a {
+	color: #27757b;
+	border-bottom: 1px dotted #27757b;
+	text-decoration: none;
+}
+
+a:hover {
+	border-bottom: none;
+}
+
+@media (max-width: 640px) {
+	#main-content {
+		padding: 0 20px;
+	}
+}
+
+@media (print) {
+	#main-content {
+		max-width: none;
+	}
+}
